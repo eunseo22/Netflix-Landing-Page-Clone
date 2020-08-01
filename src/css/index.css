@@ -1,0 +1,70 @@
+:root {
+    --primary-color: #e50914;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Arial', sans-serif;
+    -webkit-front-smoothing: antialiased;
+    background: #000;
+    color: #999;
+}
+
+h1, h2, h3, h4 {
+    color: #fff;
+}
+
+img {
+    width: 100%;
+}
+
+.showcase {
+    width: 100%;
+    height: 93vh;
+    position: relative;
+    background: url('https://assets.nflxext.com/ffe/siteui/vlv3/8502631a-7c16-4132-8656-d741da3b3d3e/ed706838-18f7-4bf8-bc21-e2494dc75e70/KR-ko-20200727-popsignuptwoweeks-perspective_alpha_website_small.jpg') no-repeat center center/cover;
+}
+
+.showcase-top {
+    position: relative;
+    height: 90px;
+}
+
+.showcase-top-netflix {
+    width: 170px;
+    color: #e50914;
+    font-size: 50px;
+    position: absolute;
+    top: 20%;
+    left: 3%;
+}
+
+.showcase-top-login {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    display: inline-block;
+    background: var(--primary-color);
+    color: #fff;
+    padding: 0.4rem 1.3rem;
+    font-size: 1rem;
+    text-align: center;
+    margin-right: 0.5rem;
+    outline: none;
+    border-radius: 2px;
+}
+
+.showcase-content {
+    position: relative;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
