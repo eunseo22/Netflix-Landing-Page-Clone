@@ -122,3 +122,12 @@ img {
     height: 10vh;
     margin: 5px auto 5px auto;
 }
+
+.plus {
+    text-align: left;
+    font-size: 15px;
+    color: #fff;
+    height: 70vh;
+    width: 100%;
+    border-top: 8px solid #999;
+}
