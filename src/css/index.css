@@ -25,9 +25,20 @@ img {
 
 .showcase {
     width: 100%;
-    height: 93vh;
+    height: 110vh;
     position: relative;
+    z-index: 1;
+}
+
+.showcase::after {
+    width: 100%;
+    height: 110vh;
+    content: "";
+    position: absolute;
     background: url('https://assets.nflxext.com/ffe/siteui/vlv3/8502631a-7c16-4132-8656-d741da3b3d3e/ed706838-18f7-4bf8-bc21-e2494dc75e70/KR-ko-20200727-popsignuptwoweeks-perspective_alpha_website_small.jpg') no-repeat center center/cover;
+    opacity: 0.4;
+    top: 0;
+    z-index: -1;
 }
 
 .showcase-top {
@@ -38,7 +49,7 @@ img {
 .showcase-top-netflix {
     width: 170px;
     color: #e50914;
-    font-size: 50px;
+    font-size: 60px;
     position: absolute;
     top: 20%;
     left: 3%;
@@ -65,6 +76,49 @@ img {
     justify-content: center;
     align-items: center;
     text-align: center;
-    
+    font-size: 30px;
+    color: #fff;
 }
 
+.story-card-tv {
+    color: #fff;
+    font-size: 27px;
+    height: 65vh;
+    width: 100%;
+    border-top: 8px solid #999;
+}
+
+.story-card-contents {
+    color: #fff;
+    font-size: 27px;
+    height: 70vh;
+    width: 100%;
+    border-top: 8px solid #999;
+}
+
+.story-card-device {
+    color: #fff;
+    font-size: 27px;
+    height: 70vh;
+    width: 100%;
+    border-top: 8px solid #999;
+}
+
+.story-card-faq {
+    text-align: center;
+    color: #fff;
+    font-size: 27px;
+    height: 110vh;
+    width: 100%;
+    border-top: 8px solid #999;
+}
+
+.button-faq {
+    text-align: left;
+    font-size: 25px;
+    color: #fff;
+    background-color: #7f8c8d;
+    width: 55%;
+    height: 10vh;
+    margin: 5px auto 5px auto;
+}
